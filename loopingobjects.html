@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dynamic CSS Classes::Vuejs App::</title>
+        <title>Looping Objects::Vuejs App::</title>
         <script src="vuejs/vue.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
     </head>
     <body>
-        <h2>Dynamic CSS Classes</h2>
-            <div id="twoway">
-                <div v-bind:class="{status:status}">
-                    Hi there Checking on You! 
-                </div>
-                <button v-on:click="status=!status">Click here</button>
+        <h2>Looping Objects</h2>
+        <hr/> 
+            <div id="loopapp">
+             <p v-for="player in players">ID:{{ player.id}}, Name:{{ player.name}}, Score:{{ player.score}}. </p>
+               
             </div>
-         <hr/>        
+               
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>

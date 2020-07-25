@@ -54,11 +54,37 @@ var kbapp = new Vue({
 
 var twoway = new Vue({
     el: '#twoway',
+
     data : {
         message: '',
-    },
-    methods:{
-                
+        status: false,
     }
 })
 
+var gateapp = new Vue({
+    el: '#gateapp',
+
+    data : {
+        gate: false,
+    }
+})
+
+Vue.component('todo-item', {
+    props: ['todo'],
+    template: '<li>{{ todo.name }}, Score: {{ todo.score }}</li>'
+  })
+
+var loopapp = new Vue({
+    el: '#loopapp',
+
+    data : {
+        students: ['Jim', 'Rob', 'Kyle', 'John'],
+        players:[
+            {id: 0, name:'Jim', score:15},
+            {id: 1, name:'Rob', score:10},
+            {id: 2, name:'Kyle', score:30},
+            {id: 3, name:'John', score:85},
+
+        ]
+    }
+})
