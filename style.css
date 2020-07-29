@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 body { 
     font-size: 14pt;
 }
 .status {
     color: red;
     font-size: 12pt;
+=======
+body { 
+    font-size: 14pt;
+}
+.status {
+    color: red;
+    font-size: 12pt;
+>>>>>>> d9b5e6e194cace90272605bfb73add2a5b01859b
 }

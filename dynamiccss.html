@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,4 +18,25 @@
          <hr/>        
         <script type="text/javascript" src="index.js"></script>
     </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dynamic CSS Classes::Vuejs App::</title>
+        <script src="vuejs/vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <h2>Dynamic CSS Classes</h2>
+            <div id="twoway">
+                <div v-bind:class="{status:status}">
+                    Hi there Checking on You! 
+                </div>
+                <button v-on:click="status=!status">Click here</button>
+            </div>
+         <hr/>        
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+>>>>>>> d9b5e6e194cace90272605bfb73add2a5b01859b
 </html>

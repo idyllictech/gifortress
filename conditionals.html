@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,4 +18,25 @@
                
         <script type="text/javascript" src="index.js"></script>
     </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conditionals::Vuejs App::</title>
+        <script src="vuejs/vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <h2>Conditionals</h2>
+        <hr/> 
+            <div id="gateapp">
+                <h1 v-if="gate" class="status">Gate Open</h1>
+                <h1 v-else-if="!gate">Gate Closed</h1>
+                <button v-on:click="gate=!gate">Open / Close Gate</button>                
+            </div>
+               
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+>>>>>>> d9b5e6e194cace90272605bfb73add2a5b01859b
 </html>

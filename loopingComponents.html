@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,4 +25,32 @@
                
         <script type="text/javascript" src="index.js"></script>
     </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Looping with Vue Components::Vuejs App::</title>
+        <script src="vuejs/vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <h2>Looping with Vue Components</h2>
+        <hr/> 
+            <div id="loopapp">
+                                 
+            <ol>
+    
+                <todo-item
+                v-for="item in players"
+                v-bind:todo="item"
+                v-bind:key="item.id"
+                ></todo-item>
+            </ol>
+               
+            </div>
+               
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+>>>>>>> d9b5e6e194cace90272605bfb73add2a5b01859b
 </html>
