@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>::Temperature App::</title>
+        <script src="vuejs/vue.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <h2>Temperature Check App</h2>
+            <div id="tempapp">
+                <h4>{{ temp }} <sup>0</sup>C</h4>
+                <br/>
+                <button v-on:click="inc">+</button>
+                <button v-on:click="dec">-</button>
+            </div>
+         <hr/>
+        
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiple Vue Instance::Vuejs App::</title>
+        <script src="vuejs/vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <h2>Multiple Vue Instance</h2>
+        <hr/> 
+            <div id="app">
+                {{ value }}
+               
+            </div>
+
+            <div id="vueinstan">
+                {{ value }}<br/>
+               <span class="status">This is from another instance: {{ f1() }}</span> 
+            </div>
+               
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

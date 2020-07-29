@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vue Referencing::Vuejs App::</title>
+        <script src="vuejs/vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <h2>Vue Referencing</h2>
+        <hr/> 
+        <p>Calculating Simple Interest</p>
+        <div id="vref">
+            <input type="text" ref="principal" />    
+            <button v-on:click="interest()" class="status">Calculate interest</button>  
+            <p>{{ inter }}</p>     
+        </div>
+
+       
+               
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

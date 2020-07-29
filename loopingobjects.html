@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Looping Objects::Vuejs App::</title>
+        <script src="vuejs/vue.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <h2>Looping Objects</h2>
+        <hr/> 
+            <div id="loopapp">
+             <p v-for="player in players">ID:{{ player.id}}, Name:{{ player.name}}, Score:{{ player.score}}. </p>
+               
+            </div>
+               
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

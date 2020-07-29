@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <script src="vuejs/vue.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    </head>
+    <body>
+        <div id="app">
+            {{ message }}<br/>
+            {{ name }}<br/>
+            The final discounted price {{ discount(200) }}<br/>
+            <img v-bind:src="path" v-bind:title="name" width="500" alt="" /><br/>
+            <a v-bind:href="link" target="_blank">Doglordkennels Paypal</a>
+        </div>
+         <hr/>
+        <div id="app-2">
+            <span v-bind:title="message">
+              Hover your mouse over me for a few seconds
+              to see my dynamically bound title!
+            </span>
+          </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
