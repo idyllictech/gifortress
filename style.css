@@ -1,6 +1,7 @@
 body { 
-    font-size: 18pt;
+    font-size: 14pt;
 }
 .status {
     color: red;
+    font-size: 12pt;
 }
